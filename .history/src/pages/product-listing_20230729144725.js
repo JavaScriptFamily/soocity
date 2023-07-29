@@ -1,7 +1,6 @@
 import Header from '../layout/header';
 import Footer from '../layout/footer';
-import Banner from '../layout/banner';
-import { Link } from 'react-router-dom';
+// import Banner from '../layout/banner';
 function ProductListing() {
   return (
     <div className="App">
@@ -11,7 +10,6 @@ function ProductListing() {
           Men's Shoes
         </h2>
       </section>
-      <Banner />
       <div class="bg0 m-t-23 p-b-140">
         <div class="container">
           <div class="flex-w flex-sb-m p-b-52">
