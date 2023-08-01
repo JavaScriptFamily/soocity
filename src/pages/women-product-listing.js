@@ -1,7 +1,5 @@
 import Header from '../layout/header';
 import Footer from '../layout/footer';
-import Banner from '../layout/banner';
-import { Link } from 'react-router-dom';
 function WomenProductListing() {
   return (
     <div className="App">

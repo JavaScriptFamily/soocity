@@ -12,24 +12,24 @@ function ProductListing() {
         </h2>
       </section>
       <Banner />
-      <div class="col-md-12">
-                <div class="quote-card">
-                    <p class="quote-text">Walk the talk of style with our fashionable shoe selection.</p>
+      <div className="col-md-12">
+                <div className="quote-card">
+                    <p className="quote-text">Walk the talk of style with our fashionable shoe selection.</p>
                 </div>
             </div>
-      <div class="bg0 m-t-23 p-b-140">
-        <div class="container">
-          <div class="flex-w flex-sb-m p-b-52">
-            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
-              <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+      <div className="bg0 m-t-23 p-b-140">
+        <div className="container">
+          <div className="flex-w flex-sb-m p-b-52">
+            <div className="flex-w flex-l-m filter-tope-group m-tb-10">
+              <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
                 All Products
               </button>
 
-              <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+              <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
                 Men
               </button>
 
-              <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+              <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
                 Women
               </button>
             </div>

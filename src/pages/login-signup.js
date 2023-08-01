@@ -10,32 +10,32 @@ function LoginSignup() {
       Join Now 
         </h2>
       </section>
-      <div class="container mt-5">
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-header">
-                <h3 class="text-center">Join Now</h3>
+      <div className="container mt-5">
+        <div className="row justify-content-center">
+          <div className="col-md-6">
+            <div className="card">
+              <div className="card-header">
+                <h3 className="text-center">Join Now</h3>
               </div>
-              <div class="card-body">
+              <div className="card-body">
                 <form>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label for="username">Mobile No.</label>
-                    <input type="text" class="form-control" id="username" placeholder="Enter your Mobile No." required />
+                    <input type="text" className="form-control" id="username" placeholder="Enter your Mobile No." required />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Enter your password" required />
+                    <input type="password" className="form-control" id="password" placeholder="Enter your password" required />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <label for="confirmPassword">Confirm Password</label>
-                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required />
+                    <input type="password" className="form-control" id="confirmPassword" placeholder="Confirm your password" required />
                   </div>
                   
 								<Link to="/my-account" className="btn btn-primary btn-block"> Sign Up</Link>
                 </form>
               </div>
-              <div class="card-footer text-center">
+              <div className="card-footer text-center">
                 <p>Already have an account? <a href="#">Log in here</a></p>
               </div>
             </div>

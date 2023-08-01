@@ -599,6 +599,10 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   .address {
     margin-top: 40px !important;
   }
+
+  .sec-banner .col-sm-3 {
+    margin-bottom: 12px !important;
+  }
 }
 
 @media (max-width: 575px) {

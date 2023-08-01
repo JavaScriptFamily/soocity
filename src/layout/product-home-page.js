@@ -3,10 +3,10 @@ function ProductHomePage() {
     return (
         <section className="bg0 p-t-23 p-b-140">
             <div className="container">
-                <div class="row">
-            <div class="col-md-12">
-                <div class="quote-card">
-                    <p class="quote-text">Shoes that speak volumes about your style.</p>
+                <div className="row">
+            <div className="col-md-12">
+                <div className="quote-card">
+                    <p className="quote-text">Shoes that speak volumes about your style.</p>
                 </div>
             </div>
             </div>
