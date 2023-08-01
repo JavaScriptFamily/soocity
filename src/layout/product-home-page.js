@@ -3,15 +3,13 @@ function ProductHomePage() {
     return (
         <section className="bg0 p-t-23 p-b-140">
             <div className="container">
-                <div className="p-b-10">
-                    <h3 className="ltext-103 cl5">
-                        Popular Shoes
-                    </h3>
+                <div class="row">
+            <div class="col-md-12">
+                <div class="quote-card">
+                    <p class="quote-text">Shoes that speak volumes about your style.</p>
                 </div>
-                <div className="flex-w flex-sb-m p-b-52">
-                    <div className="flex-w flex-l-m filter-tope-group m-tb-10">
-                    </div>
-                </div>
+            </div>
+            </div>
                 <div className="row isotope-grid">
                     <div className="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
                         {/* Block2 */}

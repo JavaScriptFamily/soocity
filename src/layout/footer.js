@@ -28,9 +28,6 @@ function Footer() {
 							<li className="p-b-10">
 								<Link to="/contact-us" className="stext-107 cl7 hov-cl1 trans-04"> Contact US</Link>
 							</li>
-							<li className="p-b-10">
-								<Link to="/help-faq" className="stext-107 cl7 hov-cl1 trans-04"> Help & FAQs</Link>
-							</li>
 						</ul>
 					</div>
 					<div className="col-sm-6 col-lg-3 p-b-50">

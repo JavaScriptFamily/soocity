@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
 function Header() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -7,17 +8,36 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
+  const [scrolled, setScrolled] = useState(false);
+
+  // Function to handle scroll event
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  // Add event listener on mount and remove it on unmount
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
 	return (
 		<div>
-			<header>
-				<div className="container-menu-desktop">
+			<header className={`header ${scrolled ? 'scrolled' : ''}`}>
+				<div className="container-menu-desktop header-sec">
 					<div className="top-bar">
 						<div className="content-topbar flex-sb-m h-full container">
 							<div className="left-top-bar">
 								Call & What's APP: 9988252428
 							</div>
 							<div className="right-top-bar flex-w h-full">
-								<Link to="/help-faq" className="flex-c-m trans-04 p-lr-25"> Help & FAQs</Link>
+								<Link to="/contact-us" className="flex-c-m trans-04 p-lr-25"> Contact US</Link>
 								<Link to="/login-signup" className="flex-c-m trans-04 p-lr-25"> My Account</Link>
 							</div>
 						</div>
@@ -35,6 +55,9 @@ function Header() {
 									</li>
 									<li className="label1" data-label1="hot">
 										<Link to="/product-listing"> Men's Shoes</Link>
+									</li>
+									<li className="label1" data-label1="Coming Soon">
+										<Link to="/women-product-listing"> Women's Shoes</Link>
 									</li>
 									<li>
 										<Link to="/about-us"> About Us</Link>

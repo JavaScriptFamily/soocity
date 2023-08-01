@@ -5,7 +5,7 @@ function Slider() {
         <Carousel>
             <div>
                 <img src="images/slider/1.jpg" />
-                {/* <p className="legend">Legend 1</p> */}
+                <p className="legend">A journey of a thousand miles begins with a fabulous pair of shoes</p>
             </div>
             <div>
                 <img src="images/slider/2.jpg" />

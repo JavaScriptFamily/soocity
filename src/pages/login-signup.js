@@ -7,7 +7,7 @@ function LoginSignup() {
       <Header />
       <section className="bg-img1 txt-center p-lr-15 p-tb-92" style={{ backgroundImage: "url('images/bg-01.jpg')" }}>
       <h2 className="ltext-105 cl0 txt-center">
-        Sign Up 
+      Join Now 
         </h2>
       </section>
       <div class="container mt-5">
@@ -15,7 +15,7 @@ function LoginSignup() {
           <div class="col-md-6">
             <div class="card">
               <div class="card-header">
-                <h3 class="text-center">Sign Up</h3>
+                <h3 class="text-center">Join Now</h3>
               </div>
               <div class="card-body">
                 <form>

@@ -11,27 +11,27 @@ function ContactUS() {
           Contact US
         </h2>
       </section>
-      <div class="container mt-5">
-        <div class="row address-details">
-          <div class="col-md-6">
-            <div class="contact-container">
-              <h2 class="text-center mb-4">Contact Us</h2>
-              <form class="contact-form">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name" required />
+      <div className="container mt-5">
+        <div className="row address-details">
+          <div className="col-md-6">
+            <div className="contact-container">
+              <h2 className="text-center mb-4">Contact Us</h2>
+              <form className="contact-form">
+                <div className="form-group">
+                  <input type="text" className="form-control" placeholder="Your Name" required />
                 </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Your Email" required />
+                <div className="form-group">
+                  <input type="email" className="form-control" placeholder="Your Email" required />
                 </div>
-                <div class="form-group">
-                  <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                <div className="form-group">
+                  <textarea className="form-control" rows="5" placeholder="Your Message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
+                <button type="submit" className="btn btn-primary">Send Message</button>
               </form>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="address">
+          <div className="col-md-6">
+            <div className="address">
               The SooCity
             </div>
             <div>
@@ -39,11 +39,10 @@ function ContactUS() {
               Muradnagar, Delhi NCR<br></br>
               India
             </div>
-            <br></br>
-            <div class="address">
+            <div className="address add-2">
               Contact Details
             </div>
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li><strong>Contact No:</strong> +91 9988252428</li>
               <li><strong>Email:</strong> service.soocity@gmail.com</li>
             </ul>

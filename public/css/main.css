@@ -107,6 +107,9 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 @media (max-width: 1600px) {
   .container {max-width: 1200px;}
+  .add-2 {
+    margin-top: 40px !important;
+  }
 }
 
 /*------------------------------------------------------------------
@@ -591,6 +594,10 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
   .wrap-search-header {
     height: 90px;
+  }
+
+  .address {
+    margin-top: 40px !important;
   }
 }
 
@@ -3329,4 +3336,29 @@ input.num-product::-webkit-inner-spin-button {
     padding: 20px;
   }
 
+}
+
+.quote-card {
+  max-width: 600px;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.quote-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+.quote-author {
+  font-size: 16px;
+  font-style: italic;
+  color: #333;
+}
+
+.scrolled .wrap-menu-desktop {
+  background-color: #222 !important;
 }

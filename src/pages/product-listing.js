@@ -12,6 +12,11 @@ function ProductListing() {
         </h2>
       </section>
       <Banner />
+      <div class="col-md-12">
+                <div class="quote-card">
+                    <p class="quote-text">Walk the talk of style with our fashionable shoe selection.</p>
+                </div>
+            </div>
       <div class="bg0 m-t-23 p-b-140">
         <div class="container">
           <div class="flex-w flex-sb-m p-b-52">
