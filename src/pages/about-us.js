@@ -12,63 +12,56 @@ function Aboutus() {
       <section className="bg0 p-t-75 p-b-120">
         <div className="container">
           <div className="row p-b-148">
-            <div className="col-md-7 col-lg-8">
-              <div className="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
+            <div className="col-md-12 col-lg-12">
+              <div className="p-t-30 p-r-85 p-r-15-lg p-r-0-md">
                 <h3 className="mtext-111 cl2 p-b-16">
-                  Our Story
+                  Welcome to Our SooCity - The Home of Imported Footwear!
                 </h3>
-
                 <p className="stext-113 cl6 p-b-26">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat consequat enim, non auctor massa ultrices non. Morbi sed odio massa. Quisque at vehicula tellus, sed tincidunt augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas varius egestas diam, eu sodales metus scelerisque congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas gravida justo eu arcu egestas convallis. Nullam eu erat bibendum, tempus ipsum eget, dictum enim. Donec non neque ut enim dapibus tincidunt vitae nec augue. Suspendisse potenti. Proin ut est diam. Donec condimentum euismod tortor, eget facilisis diam faucibus et. Morbi a tempor elit.
-                </p>
-
-                <p className="stext-113 cl6 p-b-26">
-                  Donec gravida lorem elit, quis condimentum ex semper sit amet. Fusce eget ligula magna. Aliquam aliquam imperdiet sodales. Ut fringilla turpis in vehicula vehicula. Pellentesque congue ac orci ut gravida. Aliquam erat volutpat. Donec iaculis lectus a arcu facilisis, eu sodales lectus sagittis. Etiam pellentesque, magna vel dictum rutrum, neque justo eleifend elit, vel tincidunt erat arcu ut sem. Sed rutrum, turpis ut commodo efficitur, quam velit convallis ipsum, et maximus enim ligula ac ligula.
-                </p>
-
-                <p className="stext-113 cl6 p-b-26">
-                  Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                  At Our SooCity, we take pride in offering a curated collection of imported shoes that exude style, quality, and sophistication. We understand that the right pair of shoes can elevate your entire outfit and make a lasting impression, which is why we go the extra mile to source the finest footwear from around the world.
                 </p>
               </div>
-            </div>
+              <div className="p-t-30 p-r-85 p-r-15-lg p-r-0-md">
 
-            <div className="col-11 col-md-5 col-lg-4 m-lr-auto">
-              <div className="how-bor1 ">
-                <div className="hov-img0">
-                  <img src="images/about-01.jpg" alt="IMG" />
-                </div>
+
+                <h3 className="mtext-111 cl2 p-b-16">Our Passion for Imported Shoes:</h3>
+
+                <p>Our journey began with a passion for fashion and a deep appreciation for the artistry that goes into creating the perfect pair of shoes. We believe that every step should be a statement, and that's precisely what our imported shoes achieve. From classic designs to trendy must-haves, we carefully handpick each shoe to cater to every individual's unique taste and preference.</p>
               </div>
-            </div>
-          </div>
+              <div className="p-t-30 p-r-85 p-r-15-lg p-r-0-md">
+                <h3 className="mtext-111 cl2 p-b-16">Quality and Authenticity:</h3>
 
-          <div className="row">
-            <div className="order-md-2 col-md-7 col-lg-8 p-b-30">
-              <div className="p-t-7 p-l-85 p-l-15-lg p-l-0-md">
-                <h3 className="mtext-111 cl2 p-b-16">
-                  Our Mission
-                </h3>
-
-                <p className="stext-113 cl6 p-b-26">
-                  Mauris non lacinia magna. Sed nec lobortis dolor. Vestibulum rhoncus dignissim risus, sed consectetur erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus mauris sit amet odio convallis, in pharetra magna gravida. Praesent sed nunc fermentum mi molestie tempor. Morbi vitae viverra odio. Pellentesque ac velit egestas, luctus arcu non, laoreet mauris. Sed in ipsum tempor, consequat odio in, porttitor ante. Ut mauris ligula, volutpat in sodales in, porta non odio. Pellentesque tempor urna vitae mi vestibulum, nec venenatis nulla lobortis. Proin at gravida ante. Mauris auctor purus at lacus maximus euismod. Pellentesque vulputate massa ut nisl hendrerit, eget elementum libero iaculis.
-                </p>
-
-                <div className="bor16 p-l-29 p-b-9 m-t-22">
-                  <p className="stext-114 cl6 p-r-40 p-b-11">
-                    Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while.
-                  </p>
-
-                  <span className="stext-111 cl8">
-                    - Steve Job’s
-                  </span>
-                </div>
+                <p>When you shop with us, you can rest assured that you're getting nothing but the best. We collaborate with renowned international shoe designers and trusted manufacturers, ensuring that our shoes boast exceptional craftsmanship, premium materials, and attention to detail. Authenticity is of utmost importance to us, and we take pride in bringing you genuine imported shoes that stand the test of time.</p>
               </div>
-            </div>
+              <div className="p-t-30 p-r-85 p-r-15-lg p-r-0-md">
 
-            <div className="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
-              <div className="how-bor2">
-                <div className="hov-img0">
-                  <img src="images/about-02.jpg" alt="IMG" />
-                </div>
+                <h3 className="mtext-111 cl2 p-b-16">Unparalleled Selection:</h3>
+
+                <p>Step into our virtual showroom and immerse yourself in a world of footwear delights. Our thoughtfully curated collection encompasses an extensive range of styles, from elegant heels to comfortable sneakers, from statement boots to timeless loafers. Whether you're dressing up for a special occasion, gearing up for casual outings, or seeking the perfect work shoes, Our SooCity has got you covered.</p>
+              </div>
+              <div className="p-t-30 p-r-85 p-r-15-lg p-r-0-md">
+                <h3 className="mtext-111 cl2 p-b-16">Customer Satisfaction:</h3>
+
+                <p>At Our SooCity, we place our customers at the heart of everything we do. Your satisfaction is our top priority, and we strive to provide an exceptional shopping experience from the moment you land on our website to the swift delivery of your chosen pair of shoes. Our dedicated customer support team is always here to assist you, answer your queries, and ensure your shopping journey is seamless and enjoyable.</p>
+              </div>
+              <div className="p-t-30 p-r-85 p-r-15-lg p-r-0-md">
+                <h3 className="mtext-111 cl2 p-b-16">Sharing the Love of Shoes:</h3>
+
+                <p>We believe that great shoes should be accessible to everyone. SooCity offers competitive prices without compromising on quality, making luxury footwear more attainable. We invite you to join our community of shoe enthusiasts and embrace the joy of stepping out in shoes that make you feel confident and stylish.</p>
+              </div>
+              <div className="p-t-27 p-r-85 p-r-15-lg p-r-0-md">
+                <h3 className="mtext-111 cl2 p-b-16">Let's Walk Together:</h3>
+
+                <p>Thank you for choosing SooCity as your go-to destination for imported shoes. We are excited to be a part of your shoe journey and look forward to helping you find the perfect pair that fits not only your feet but also your personality. Whether you're a trendsetter or a classic aficionado, we have something special in store for you.</p>
+
+                <br></br>
+
+                <p>Join us in celebrating the art of shoemaking and indulge in a world of elegance, comfort, and timeless charm. Begin your shoe odyssey with SooCity today!</p>
+
+                <br></br>
+                Sincerely,
+                <br></br>
+                The SooCity Team
               </div>
             </div>
           </div>
