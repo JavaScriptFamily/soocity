@@ -4,10 +4,15 @@ import Slider from '../layout/slider';
 import Banner from '../layout/banner';
 import ProductHomePage from '../layout/product-home-page';
 function Home() {
+  const data = {
+    show: false,
+    pageName: 'John Doe'
+  };
+
   return (
     <div className="App">
       {/* Pending - Hamburger */}
-      <Header />
+      <Header data={data} />
       {/* Pending */}
       <Slider />
       {/* Completed */}

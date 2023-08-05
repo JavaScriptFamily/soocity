@@ -1,14 +1,10 @@
 import Header from '../layout/header';
 import Footer from '../layout/footer';
 function Aboutus() {
+  const data = { show: true, pageName: 'About US' };
   return (
     <div className="App">
-      <Header />
-      <section className="bg-img1 txt-center p-lr-15 p-tb-92" style={{ backgroundImage: "url('images/bg-01.jpg')" }}>
-        <h2 className="ltext-105 cl0 txt-center">
-          About
-        </h2>
-      </section>
+      <Header data={data} />
       <section className="bg0 p-t-75 p-b-120">
         <div className="container">
           <div className="row p-b-148">

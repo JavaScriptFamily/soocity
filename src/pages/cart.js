@@ -2,14 +2,10 @@ import Header from '../layout/header';
 import Footer from '../layout/footer';
 import Banner from '../layout/banner';
 function Cart() {
+  const data = { show: true, pageName: 'Product Listing' };
   return (
     <div className="App">
-      <Header />
-      <section className="bg-img1 txt-center p-lr-15 p-tb-92" style={{ backgroundImage: "url('images/bg-01.jpg')" }}>
-        <h2 className="ltext-105 cl0 txt-center">
-          Product Listing
-        </h2>
-      </section>
+      <Header data={data} />
       <Banner />
       <section className="bg0 p-t-75 p-b-120">
         <div className="container">

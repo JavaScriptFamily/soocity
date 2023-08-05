@@ -1,12 +1,13 @@
 import Header from '../layout/header';
 import Footer from '../layout/footer';
 function MyOrders() {
+  const data = { show: true, pageName: 'My Account' };
   return (
-      <div className="App">
-        <Header />  
-          <p>MyOrders</p>        
-        <Footer />       
-      </div>
+    <div className="App">
+      <Header data={data} />
+      <p>MyOrders</p>
+      <Footer />
+    </div>
   );
 }
 

@@ -2,14 +2,11 @@ import { Link } from 'react-router-dom';
 import Header from '../layout/header';
 import Footer from '../layout/footer';
 function LoginSignup() {
+  const data = { show: true, pageName: 'Join Now' };
   return (
     <div className="App">
-      <Header />
-      <section className="bg-img1 txt-center p-lr-15 p-tb-92" style={{ backgroundImage: "url('images/bg-01.jpg')" }}>
-      <h2 className="ltext-105 cl0 txt-center">
-      Join Now 
-        </h2>
-      </section>
+      <Header data={data} />
+    
       <div className="container mt-5">
         <div className="row justify-content-center">
           <div className="col-md-6">

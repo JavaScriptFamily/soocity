@@ -3,14 +3,11 @@ import Footer from '../layout/footer';
 import './css/contact-us.css'; // Import CSS file
 
 function ContactUS() {
+  const data = { show: true, pageName: 'Contact US' };
   return (
     <div className="App">
-      <Header />
-      <section className="bg-img1 txt-center p-lr-15 p-tb-92" style={{ backgroundImage: "url('images/bg-01.jpg')" }}>
-        <h2 className="ltext-105 cl0 txt-center">
-          Contact US
-        </h2>
-      </section>
+      <Header data={data} />
+
       <div className="container mt-5">
         <div className="row address-details">
           <div className="col-md-6">
